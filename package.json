@@ -1,0 +1,22 @@
+{
+  "name": "handlebars-loader-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "ssh://git@github.com/yszk0123/handlebars-loader-test.git",
+  "author": "Yuji Suzuki <y0suzuki0123@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "handlebars-loader": "^1.6.0",
+    "html-webpack-plugin": "^2.30.1",
+    "prettier": "^1.8.2",
+    "webpack": "^3.9.1",
+    "webpack-dev-server": "^2.9.5"
+  },
+  "dependencies": {
+    "handlebars": "^4.0.11"
+  }
+}
