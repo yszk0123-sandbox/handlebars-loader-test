@@ -34,7 +34,9 @@ module.exports = {
     rules: [
       {
         test: /\.hbs/,
-        use: 'handlebars-loader',
+        use: {
+          loader: 'handlebars-loader',
+        },
       },
     ],
   },
